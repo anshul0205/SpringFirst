@@ -11,6 +11,10 @@ public class MyController {
 	public String getHome() {
 		return "home";
 	}
-	
+	  
+	@RequestMapping("/dashboard")
+	public String getDashboard() {
+		return "dashboard";
+	}
 
 }
